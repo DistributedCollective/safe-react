@@ -56,6 +56,8 @@ export enum ETHEREUM_NETWORK {
   LOCAL = '4447',
   ARBITRUM = '42161',
   VOLTA = '73799',
+  RSK = '30',
+  RSK_TESTNET = '31',
 }
 
 // Take from: https://chainid.network/shortNameMapping.json
@@ -70,6 +72,8 @@ export enum SHORT_NAME {
   LOCAL = 'local',
   ARBITRUM = 'arb1',
   VOLTA = 'vt',
+  RSK = 'rsk',
+  RSK_TESTNET = 'trsk',
 }
 
 export type NetworkSettings = {

@@ -9,8 +9,8 @@ import {
 import { WALLETS } from 'src/config/networks/network.d'
 
 const baseConfig: EnvironmentSettings = {
-  clientGatewayUrl: 'http://ec2-3-69-52-53.eu-central-1.compute.amazonaws.com/v1',
-  txServiceUrl: 'http://localhost:8888/api/v1',
+  clientGatewayUrl: 'https://safe-client.sovryn.app/v1',
+  txServiceUrl: 'http://safe-tx.sovryn.app/api/v1',
   gasPrice: 60000000,
   safeAppsRpcServiceUrl: 'https://public-node.rsk.co',
   rpcServiceUrl: 'https://public-node.rsk.co',
@@ -24,11 +24,7 @@ const rsk: NetworkConfig = {
     test: baseConfig,
     dev: baseConfig,
     staging: baseConfig,
-    production: {
-      ...baseConfig,
-      clientGatewayUrl: 'http://ec2-3-69-52-53.eu-central-1.compute.amazonaws.com/v1',
-      txServiceUrl: 'https://safe-tx.ngrok.io/api/v1',
-    },
+    production: baseConfig,
   },
   network: {
     id: ETHEREUM_NETWORK.RSK,

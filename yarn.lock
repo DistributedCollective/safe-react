@@ -6502,10 +6502,10 @@ bnb-javascript-sdk-nobroadcast@^2.16.14:
     uuid "^3.3.2"
     websocket-stream "^5.5.0"
 
-bnc-onboard@~1.39.0:
-  version "1.39.0"
-  resolved "https://registry.yarnpkg.com/bnc-onboard/-/bnc-onboard-1.39.0.tgz#064083298bb811931db5605657e3ce7207cc9a4c"
-  integrity sha512-GC+xNVm0XT6mAwD84QE+yRNDq5f1LwuBx7J6gGLChmpbgn9PuLz5kywhgsimKdkxTXZr1inKZwBOYNkL1XvUCA==
+bnc-onboard@~1.39.1:
+  version "1.39.1"
+  resolved "https://registry.yarnpkg.com/bnc-onboard/-/bnc-onboard-1.39.1.tgz#88e17cee27389677494d92c7d2069473361c5808"
+  integrity sha512-sF+a2AWewyNORaYSOC96Sb7jelExneqF1PXLjHPgl1+naQh2mnzTYMxIaWD0TjA+jhu+s4Vq0IWPfsqHrHpyzw==
   dependencies:
     "@cvbb/eth-keyring" "^1.1.0"
     "@ensdomains/ensjs" "^2.0.1"
@@ -7176,9 +7176,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000929, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001035, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001271:
-  version "1.0.30001271"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001271.tgz#0dda0c9bcae2cf5407cd34cac304186616cc83e8"
-  integrity sha512-BBruZFWmt3HFdVPS8kceTBIguKxu4f99n5JNp06OlPD/luoAMIaIK5ieV5YjnBLH3Nysai9sxj9rpJj4ZisXOA==
+  version "1.0.30001488"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001488.tgz"
+  integrity sha512-NORIQuuL4xGpIy6iCCQGN4iFjlBXtfKWIenlUuyZJumLRIindLb7wXM+GO8erEhb7vXfcnf4BAg2PrSDN5TNLQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
